@@ -1,0 +1,16 @@
+INSERT INTO transactions_v3 (call_id, call_time, client_id, region_code, campaign_type, call_status, client_response, duration_sec, follow_up_required) VALUES
+('call_20260501_001', CAST('2026-05-01 11:42:15' AS Timestamp), 'client_4412', 'DE-HE', 'credit_card_offer', 'answered', 'interested', 184, true),
+('call_20260501_002', CAST('2026-05-01 12:15:22' AS Timestamp), 'client_8923', 'US-CA', 'loan_offer', 'answered', 'not_interested', 95, false),
+('call_20260501_003', CAST('2026-05-01 13:30:45' AS Timestamp), 'client_1567', 'FR-IDF', 'insurance_offer', 'no_answer', NULL, 0, false),
+('call_20260501_004', CAST('2026-05-01 14:22:10' AS Timestamp), 'client_6734', 'GB-ENG', 'credit_card_offer', 'answered', 'interested', 203, true),
+('call_20260501_005', CAST('2026-05-01 15:05:33' AS Timestamp), 'client_9981', 'DE-BY', 'investment_offer', 'answered', 'callback', 156, true),
+('call_20260501_006', CAST('2026-05-01 16:18:47' AS Timestamp), 'client_2245', 'US-TX', 'loan_offer', 'rejected', NULL, 12, false),
+('call_20260501_007', CAST('2026-05-01 17:42:19' AS Timestamp), 'client_5503', 'FR-ARA', 'insurance_offer', 'answered', 'interested', 267, true),
+('call_20260501_008', CAST('2026-05-01 18:55:01' AS Timestamp), 'client_7768', 'GB-LON', 'credit_card_offer', 'answered', 'not_interested', 78, false),
+('call_20260501_009', CAST('2026-05-02 09:12:34' AS Timestamp), 'client_3321', 'DE-NW', 'investment_offer', 'answered', 'interested', 312, true),
+('call_20260501_010', CAST('2026-05-02 10:28:56' AS Timestamp), 'client_4479', 'US-NY', 'loan_offer', 'no_answer', NULL, 0, false),
+('call_20260501_011', CAST('2026-05-02 11:35:12' AS Timestamp), 'client_6612', 'FR-PAC', 'credit_card_offer', 'answered', 'callback', 142, true),
+('call_20260501_012', CAST('2026-05-02 12:48:23' AS Timestamp), 'client_1189', 'GB-MAN', 'insurance_offer', 'answered', 'interested', 189, true),
+('call_20260501_013', CAST('2026-05-02 13:59:44' AS Timestamp), 'client_9034', 'DE-BE', 'loan_offer', 'rejected', NULL, 8, false),
+('call_20260501_014', CAST('2026-05-02 15:14:55' AS Timestamp), 'client_5276', 'US-FL', 'credit_card_offer', 'answered', 'interested', 221, true),
+('call_20260501_015', CAST('2026-05-02 16:27:08' AS Timestamp), 'client_7743', 'FR-GES', 'investment_offer', 'answered', 'not_interested', 67, false);
